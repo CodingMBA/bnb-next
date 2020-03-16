@@ -13,7 +13,7 @@ const Header = () => {
     <div className="nav-container">
       <Link href="/">
         <a>
-          <img src="/img/logo.png" alt="" />
+          <img src="/img/logo.svg" alt="" />
         </a>
       </Link>
 
@@ -52,10 +52,12 @@ const Header = () => {
         }
         .nav-container {
           border-bottom: 1px solid #eee;
-          height: 50px;
+          height: 60px;
         }
         img {
           float: left;
+          width: 250px;
+          padding: 0.5rem;
         }
         ul {
           float: right;

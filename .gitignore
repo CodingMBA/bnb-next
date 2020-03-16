@@ -3,3 +3,5 @@ public/img/houses
 .next
 .DS_Store
 .vscode/settings.json
+database.js
+
